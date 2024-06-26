@@ -9,7 +9,7 @@ import UIKit
 
 class PickerVC : ViewController, UIPickerViewDelegate, UIPickerViewDataSource {
     let MAX_ARRAY_NUM = 9   // 이미지 파일명을 저장할 배열의 최대 크기
-    let PICKER_VIEW_COLUMN = 1 // 피커 뷰의 열의 개수
+    let PICKER_VIEW_COLUMN = 2 // 피커 뷰의 열의 개수
     let PICEKR_VIEW_HEIGHT : CGFloat = 80   // 룰렛의 높이 설정
     var imageFileName = ["가천관.png","공과대학1.png","공과대학2.png","교육대학원.png","글로벌센터.png","대학원_평생교육원.png","바이오나노대학.png","바이오나노연구원.png", "반도체대학.png"]
     var imageArray = [UIImage?]()
@@ -63,8 +63,13 @@ class PickerVC : ViewController, UIPickerViewDelegate, UIPickerViewDataSource {
     
     // 사용자가 피커 뷰의 룰렛을 선택했을 때 호출됨
     func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
-        lblImageFileName.text = imageFileName[row]
-        imageView.image = imageArray[row]
+        if component == 0 {
+            lblImageFileName.text = imageFileName[row]
+        }
+        else {
+            imageView.image = imageArray[row]
+        }
+
     }
     
     
