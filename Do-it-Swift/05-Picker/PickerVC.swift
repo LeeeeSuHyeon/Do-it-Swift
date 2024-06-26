@@ -10,6 +10,7 @@ import UIKit
 class PickerVC : ViewController, UIPickerViewDelegate, UIPickerViewDataSource {
     let MAX_ARRAY_NUM = 9   // 이미지 파일명을 저장할 배열의 최대 크기
     let PICKER_VIEW_COLUMN = 1 // 피커 뷰의 열의 개수
+    let PICEKR_VIEW_HEIGHT : CGFloat = 80   // 룰렛의 높이 설정
     var imageFileName = ["가천관.png","공과대학1.png","공과대학2.png","교육대학원.png","글로벌센터.png","대학원_평생교육원.png","바이오나노대학.png","바이오나노연구원.png", "반도체대학.png"]
     var imageArray = [UIImage?]()
     
@@ -41,10 +42,23 @@ class PickerVC : ViewController, UIPickerViewDelegate, UIPickerViewDataSource {
         return MAX_ARRAY_NUM
     }
     
-    // titleForRow 인수를 가지는 메서드
-    // 피커 뷰에게 컴포넌트의 각 행의 타이틀을 문자열(String) 값으로 넘겨줌
-    func pickerView(_ pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {
-        return imageFileName[row]
+//    // titleForRow 인수를 가지는 메서드
+//    // 피커 뷰에게 컴포넌트의 각 행의 타이틀을 문자열(String) 값으로 넘겨줌
+//    func pickerView(_ pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {
+//        return imageFileName[row]
+//    }
+    
+    // 각 row의 view를 정의하는 메서드
+    // 각 row의 view를 설정하고 UIView 타입을 리턴
+    func pickerView(_ pickerView: UIPickerView, viewForRow row: Int, forComponent component: Int, reusing view: UIView?) -> UIView {
+        let imageView = UIImageView(image: imageArray[row])
+        imageView.frame = CGRect(x: 0, y: 0, width: 150, height: 50)
+        return imageView
+    }
+    
+    // 피커 뷰의 높이 설정 딜리게이트
+    func pickerView(_ pickerView: UIPickerView, rowHeightForComponent component: Int) -> CGFloat {
+        return PICEKR_VIEW_HEIGHT
     }
     
     // 사용자가 피커 뷰의 룰렛을 선택했을 때 호출됨
