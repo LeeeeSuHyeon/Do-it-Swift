@@ -12,6 +12,8 @@ class ViewController04 : ViewController {
     let interval = 1.0
     var count = 0
     
+    var alarmTime = ""
+    
     @IBOutlet weak var lblCurrentTime: UILabel!
     @IBOutlet weak var lblPickerTime: UILabel!
     
@@ -25,6 +27,9 @@ class ViewController04 : ViewController {
         let formatter = DateFormatter()
         formatter.dateFormat = "yyyy-MM-dd HH:mm EEE"
         lblPickerTime.text = "선택시간 : " + formatter.string(from: datePickerView.date)
+        
+        formatter.dateFormat = "hh:mm aaa"
+        alarmTime = formatter.string(from: datePickerView.date)
     }
     
     @objc func updateTime(){
@@ -35,5 +40,15 @@ class ViewController04 : ViewController {
         let formatter = DateFormatter()
         formatter.dateFormat = "yyyy-MM-dd HH:mm:ss EEE"
         lblCurrentTime.text = formatter.string(from: date as Date)
+        
+        formatter.dateFormat = "hh:mm aaa"
+        let currentTime = formatter.string(from: date as Date)
+        
+        if alarmTime == currentTime {
+            view.backgroundColor = .red
+        }
+        else{
+            view.backgroundColor = .white
+        }
     }
 }
