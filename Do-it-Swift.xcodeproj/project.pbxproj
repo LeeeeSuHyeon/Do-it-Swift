@@ -22,6 +22,16 @@
 		CB5F64D82C2AA0FA0017E2D4 /* MuhanStart.png in Resources */ = {isa = PBXBuildFile; fileRef = CB5F64D42C2AA0FA0017E2D4 /* MuhanStart.png */; };
 		CB5F64D92C2AA0FA0017E2D4 /* MuhanEnd.png in Resources */ = {isa = PBXBuildFile; fileRef = CB5F64D52C2AA0FA0017E2D4 /* MuhanEnd.png */; };
 		CB5F64DC2C2BF7D70017E2D4 /* ViewController04.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB5F64DB2C2BF7D70017E2D4 /* ViewController04.swift */; };
+		CB5F64DF2C2C01430017E2D4 /* PickerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB5F64DE2C2C01430017E2D4 /* PickerVC.swift */; };
+		CB5F64F62C2C01A20017E2D4 /* 대학원_평생교육원.png in Resources */ = {isa = PBXBuildFile; fileRef = CB5F64E02C2C01A10017E2D4 /* 대학원_평생교육원.png */; };
+		CB5F64F72C2C01A20017E2D4 /* 글로벌센터.png in Resources */ = {isa = PBXBuildFile; fileRef = CB5F64E12C2C01A10017E2D4 /* 글로벌센터.png */; };
+		CB5F64F92C2C01A20017E2D4 /* 공과대학1.png in Resources */ = {isa = PBXBuildFile; fileRef = CB5F64E32C2C01A10017E2D4 /* 공과대학1.png */; };
+		CB5F64FA2C2C01A20017E2D4 /* 교육대학원.png in Resources */ = {isa = PBXBuildFile; fileRef = CB5F64E42C2C01A20017E2D4 /* 교육대학원.png */; };
+		CB5F64FB2C2C01A20017E2D4 /* 바이오나노연구원.png in Resources */ = {isa = PBXBuildFile; fileRef = CB5F64E52C2C01A20017E2D4 /* 바이오나노연구원.png */; };
+		CB5F65012C2C01A20017E2D4 /* 공과대학2.png in Resources */ = {isa = PBXBuildFile; fileRef = CB5F64EB2C2C01A20017E2D4 /* 공과대학2.png */; };
+		CB5F65022C2C01A20017E2D4 /* 바이오나노대학.png in Resources */ = {isa = PBXBuildFile; fileRef = CB5F64EC2C2C01A20017E2D4 /* 바이오나노대학.png */; };
+		CB5F65032C2C01A20017E2D4 /* 가천관.png in Resources */ = {isa = PBXBuildFile; fileRef = CB5F64ED2C2C01A20017E2D4 /* 가천관.png */; };
+		CB5F650A2C2C01A20017E2D4 /* 반도체대학.png in Resources */ = {isa = PBXBuildFile; fileRef = CB5F64F42C2C01A20017E2D4 /* 반도체대학.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +52,16 @@
 		CB5F64D42C2AA0FA0017E2D4 /* MuhanStart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MuhanStart.png; sourceTree = "<group>"; };
 		CB5F64D52C2AA0FA0017E2D4 /* MuhanEnd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MuhanEnd.png; sourceTree = "<group>"; };
 		CB5F64DB2C2BF7D70017E2D4 /* ViewController04.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController04.swift; sourceTree = "<group>"; };
+		CB5F64DE2C2C01430017E2D4 /* PickerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerVC.swift; sourceTree = "<group>"; };
+		CB5F64E02C2C01A10017E2D4 /* 대학원_평생교육원.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "대학원_평생교육원.png"; sourceTree = "<group>"; };
+		CB5F64E12C2C01A10017E2D4 /* 글로벌센터.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "글로벌센터.png"; sourceTree = "<group>"; };
+		CB5F64E32C2C01A10017E2D4 /* 공과대학1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "공과대학1.png"; sourceTree = "<group>"; };
+		CB5F64E42C2C01A20017E2D4 /* 교육대학원.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "교육대학원.png"; sourceTree = "<group>"; };
+		CB5F64E52C2C01A20017E2D4 /* 바이오나노연구원.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "바이오나노연구원.png"; sourceTree = "<group>"; };
+		CB5F64EB2C2C01A20017E2D4 /* 공과대학2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "공과대학2.png"; sourceTree = "<group>"; };
+		CB5F64EC2C2C01A20017E2D4 /* 바이오나노대학.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "바이오나노대학.png"; sourceTree = "<group>"; };
+		CB5F64ED2C2C01A20017E2D4 /* 가천관.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "가천관.png"; sourceTree = "<group>"; };
+		CB5F64F42C2C01A20017E2D4 /* 반도체대학.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "반도체대학.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +94,7 @@
 		CB3BB0A12C294CFF007C5E79 /* Do-it-Swift */ = {
 			isa = PBXGroup;
 			children = (
+				CB5F64DD2C2C012A0017E2D4 /* 05-Picker */,
 				CB5F64DA2C2BF7C50017E2D4 /* 04-DatePicker */,
 				CB5F64CF2C2A9FA80017E2D4 /* 02-HelloWorld */,
 				CB5F64CE2C2A9F880017E2D4 /* 03-imageView */,
@@ -116,6 +137,31 @@
 				CB5F64DB2C2BF7D70017E2D4 /* ViewController04.swift */,
 			);
 			path = "04-DatePicker";
+			sourceTree = "<group>";
+		};
+		CB5F64DD2C2C012A0017E2D4 /* 05-Picker */ = {
+			isa = PBXGroup;
+			children = (
+				CB5F650C2C2C01B80017E2D4 /* image */,
+				CB5F64DE2C2C01430017E2D4 /* PickerVC.swift */,
+			);
+			path = "05-Picker";
+			sourceTree = "<group>";
+		};
+		CB5F650C2C2C01B80017E2D4 /* image */ = {
+			isa = PBXGroup;
+			children = (
+				CB5F64ED2C2C01A20017E2D4 /* 가천관.png */,
+				CB5F64E32C2C01A10017E2D4 /* 공과대학1.png */,
+				CB5F64EB2C2C01A20017E2D4 /* 공과대학2.png */,
+				CB5F64E42C2C01A20017E2D4 /* 교육대학원.png */,
+				CB5F64E12C2C01A10017E2D4 /* 글로벌센터.png */,
+				CB5F64E02C2C01A10017E2D4 /* 대학원_평생교육원.png */,
+				CB5F64EC2C2C01A20017E2D4 /* 바이오나노대학.png */,
+				CB5F64E52C2C01A20017E2D4 /* 바이오나노연구원.png */,
+				CB5F64F42C2C01A20017E2D4 /* 반도체대학.png */,
+			);
+			path = image;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -181,10 +227,19 @@
 				CB3BB0AC2C294D00007C5E79 /* Assets.xcassets in Resources */,
 				CB3BB0AF2C294D00007C5E79 /* Base in Resources */,
 				CB5F64CC2C2A9A380017E2D4 /* left.png in Resources */,
+				CB5F64FB2C2C01A20017E2D4 /* 바이오나노연구원.png in Resources */,
+				CB5F65012C2C01A20017E2D4 /* 공과대학2.png in Resources */,
 				CB5F64D62C2AA0FA0017E2D4 /* couple_01-1.png in Resources */,
+				CB5F64F62C2C01A20017E2D4 /* 대학원_평생교육원.png in Resources */,
 				CB3BB0AA2C294CFF007C5E79 /* Base in Resources */,
 				CB5F64D72C2AA0FA0017E2D4 /* MuhanMiddle.png in Resources */,
 				CB5F64D92C2AA0FA0017E2D4 /* MuhanEnd.png in Resources */,
+				CB5F65022C2C01A20017E2D4 /* 바이오나노대학.png in Resources */,
+				CB5F64FA2C2C01A20017E2D4 /* 교육대학원.png in Resources */,
+				CB5F64F92C2C01A20017E2D4 /* 공과대학1.png in Resources */,
+				CB5F64F72C2C01A20017E2D4 /* 글로벌센터.png in Resources */,
+				CB5F650A2C2C01A20017E2D4 /* 반도체대학.png in Resources */,
+				CB5F65032C2C01A20017E2D4 /* 가천관.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -196,6 +251,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CB5F64D12C2A9FD40017E2D4 /* ViewController02_Mission.swift in Sources */,
+				CB5F64DF2C2C01430017E2D4 /* PickerVC.swift in Sources */,
 				CB5F64DC2C2BF7D70017E2D4 /* ViewController04.swift in Sources */,
 				CB3BB0A72C294CFF007C5E79 /* ViewController01.swift in Sources */,
 				CB3BB0A32C294CFF007C5E79 /* AppDelegate.swift in Sources */,
