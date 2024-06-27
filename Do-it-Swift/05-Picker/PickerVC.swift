@@ -37,7 +37,7 @@ class PickerVC : ViewController, UIPickerViewDelegate, UIPickerViewDataSource {
     
     // numberOfRowsInComponent 인수를 가지는 메서드
     // 피커 뷰에게 컴포넌트의 행의 개수를 정수 값으로 넘겨줌
-    // 이 값은 피커 뷰의 해당 열에서 선택할 수 있는 행의 개수 (데이터의 개수를 의미)
+    // 이 값은 피커 뷰의 해당 열에서 선택할 수 있는 행의 개수 (데이터의 개수를 의미), component : 열의 순서 (왼쪽부터 0,1,2..)
     func pickerView(_ pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int {
         return MAX_ARRAY_NUM
     }
