@@ -36,6 +36,7 @@
 		CB5F65132C2D522C0017E2D4 /* lampRemove.png in Resources */ = {isa = PBXBuildFile; fileRef = CB5F65102C2D522C0017E2D4 /* lampRemove.png */; };
 		CB5F65142C2D522C0017E2D4 /* lampOn.png in Resources */ = {isa = PBXBuildFile; fileRef = CB5F65112C2D522C0017E2D4 /* lampOn.png */; };
 		CB5F65152C2D522C0017E2D4 /* lampOff.png in Resources */ = {isa = PBXBuildFile; fileRef = CB5F65122C2D522C0017E2D4 /* lampOff.png */; };
+		CB5F65182C2D57540017E2D4 /* ClockAlertVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB5F65172C2D57540017E2D4 /* ClockAlertVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -70,6 +71,7 @@
 		CB5F65102C2D522C0017E2D4 /* lampRemove.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lampRemove.png; sourceTree = "<group>"; };
 		CB5F65112C2D522C0017E2D4 /* lampOn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lampOn.png; sourceTree = "<group>"; };
 		CB5F65122C2D522C0017E2D4 /* lampOff.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lampOff.png; sourceTree = "<group>"; };
+		CB5F65172C2D57540017E2D4 /* ClockAlertVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockAlertVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -178,6 +180,7 @@
 			children = (
 				CB5F65162C2D52320017E2D4 /* image */,
 				CB5F650E2C2D4C3D0017E2D4 /* AlertVC.swift */,
+				CB5F65172C2D57540017E2D4 /* ClockAlertVC.swift */,
 			);
 			path = "06-Alert";
 			sourceTree = "<group>";
@@ -282,6 +285,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CB5F64D12C2A9FD40017E2D4 /* ViewController02_Mission.swift in Sources */,
+				CB5F65182C2D57540017E2D4 /* ClockAlertVC.swift in Sources */,
 				CB5F650F2C2D4C3D0017E2D4 /* AlertVC.swift in Sources */,
 				CB5F64DF2C2C01430017E2D4 /* PickerVC.swift in Sources */,
 				CB5F64DC2C2BF7D70017E2D4 /* ViewController04.swift in Sources */,
