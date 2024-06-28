@@ -49,9 +49,11 @@ class WebBrowserVC : ViewController, WKNavigationDelegate {
     }
     
     @IBAction func btnGoSite1(_ sender: UIButton) {
+        loadWebPage("https://github.com/LeeeeSuHyeon")
     }
     
     @IBAction func btnGoSite2(_ sender: UIButton) {
+        loadWebPage("https://chatgpt.com/")
     }
     
     @IBAction func btnLoadHtmlString(_ sender: UIButton) {
