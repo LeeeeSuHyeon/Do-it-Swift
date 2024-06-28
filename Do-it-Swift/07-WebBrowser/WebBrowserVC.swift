@@ -21,6 +21,15 @@ class WebBrowserVC : ViewController, WKNavigationDelegate {
         }
     }
     
+    func checkUrl(_ url : String) -> String {
+        var strUrl = url
+        let flag = strUrl.hasPrefix("http://")
+        if !flag {
+            strUrl = "http://" + strUrl
+        }
+        return strUrl
+    }
+    
     override func viewDidLoad() {
         myWebView.navigationDelegate = self
         loadWebPage("https://soo-hyn.tistory.com/")
@@ -45,7 +54,9 @@ class WebBrowserVC : ViewController, WKNavigationDelegate {
     }
     
     @IBAction func btnGotoURL(_ sender: UIButton) {
-        
+        let myURL = checkUrl(txtURL.text!)
+        txtURL.text = ""
+        loadWebPage(myURL)
     }
     
     @IBAction func btnGoSite1(_ sender: UIButton) {
@@ -57,17 +68,29 @@ class WebBrowserVC : ViewController, WKNavigationDelegate {
     }
     
     @IBAction func btnLoadHtmlString(_ sender: UIButton) {
+        let htmlString = "<h1> HTML String </h1><p> String 변수를 이용한 웹페이지 </p><p><a href=\"https://soo-hyn.tistory.com\">soo_hyn</a>으로 이동</p>"
+        myWebView.loadHTMLString(htmlString, baseURL: nil)
     }
     
     @IBAction func btnLoadHtmlFile(_ sender: UIButton) {
+        if let filePath = Bundle.main.path(forResource: "htmlView", ofType: "html"){
+            let myURL = URL(fileURLWithPath : filePath)
+            let myRequest = URLRequest(url: myURL)
+            myWebView.load(myRequest)
+        }
     }
     
     @IBAction func btnStop(_ sender: UIBarButtonItem) {
+        myWebView.stopLoading()
     }
     @IBAction func btnReload(_ sender: UIBarButtonItem) {
+        myWebView.reload()
     }
     @IBAction func btnGoBack(_ sender: UIBarButtonItem) {
+        myWebView.goBack()
     }
     @IBAction func btnGoForward(_ sender: UIBarButtonItem) {
+        myWebView.goForward()
     }
+    
 }

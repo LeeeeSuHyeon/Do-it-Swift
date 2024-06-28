@@ -38,6 +38,7 @@
 		CB5F65152C2D522C0017E2D4 /* lampOff.png in Resources */ = {isa = PBXBuildFile; fileRef = CB5F65122C2D522C0017E2D4 /* lampOff.png */; };
 		CB5F65182C2D57540017E2D4 /* ClockAlertVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB5F65172C2D57540017E2D4 /* ClockAlertVC.swift */; };
 		CB5F651B2C2D5CB50017E2D4 /* WebBrowserVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB5F651A2C2D5CB50017E2D4 /* WebBrowserVC.swift */; };
+		CB5F651D2C2E90970017E2D4 /* htmlView.html in Resources */ = {isa = PBXBuildFile; fileRef = CB5F651C2C2E90970017E2D4 /* htmlView.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -74,6 +75,7 @@
 		CB5F65122C2D522C0017E2D4 /* lampOff.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lampOff.png; sourceTree = "<group>"; };
 		CB5F65172C2D57540017E2D4 /* ClockAlertVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockAlertVC.swift; sourceTree = "<group>"; };
 		CB5F651A2C2D5CB50017E2D4 /* WebBrowserVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebBrowserVC.swift; sourceTree = "<group>"; };
+		CB5F651C2C2E90970017E2D4 /* htmlView.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = htmlView.html; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -202,6 +204,7 @@
 			isa = PBXGroup;
 			children = (
 				CB5F651A2C2D5CB50017E2D4 /* WebBrowserVC.swift */,
+				CB5F651C2C2E90970017E2D4 /* htmlView.html */,
 			);
 			path = "07-WebBrowser";
 			sourceTree = "<group>";
@@ -270,6 +273,7 @@
 				CB3BB0AC2C294D00007C5E79 /* Assets.xcassets in Resources */,
 				CB3BB0AF2C294D00007C5E79 /* Base in Resources */,
 				CB5F64CC2C2A9A380017E2D4 /* left.png in Resources */,
+				CB5F651D2C2E90970017E2D4 /* htmlView.html in Resources */,
 				CB5F64FB2C2C01A20017E2D4 /* 바이오나노연구원.png in Resources */,
 				CB5F65012C2C01A20017E2D4 /* 공과대학2.png in Resources */,
 				CB5F64D62C2AA0FA0017E2D4 /* couple_01-1.png in Resources */,
