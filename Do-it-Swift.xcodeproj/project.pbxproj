@@ -39,6 +39,8 @@
 		CB5F65182C2D57540017E2D4 /* ClockAlertVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB5F65172C2D57540017E2D4 /* ClockAlertVC.swift */; };
 		CB5F651B2C2D5CB50017E2D4 /* WebBrowserVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB5F651A2C2D5CB50017E2D4 /* WebBrowserVC.swift */; };
 		CB5F651D2C2E90970017E2D4 /* htmlView.html in Resources */ = {isa = PBXBuildFile; fileRef = CB5F651C2C2E90970017E2D4 /* htmlView.html */; };
+		CB5F651F2C2E94F30017E2D4 /* WebBroswerMission.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB5F651E2C2E94F30017E2D4 /* WebBroswerMission.swift */; };
+		CB5F65232C2E957B0017E2D4 /* htmlMissionView.html in Resources */ = {isa = PBXBuildFile; fileRef = CB5F65222C2E957B0017E2D4 /* htmlMissionView.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -76,6 +78,8 @@
 		CB5F65172C2D57540017E2D4 /* ClockAlertVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockAlertVC.swift; sourceTree = "<group>"; };
 		CB5F651A2C2D5CB50017E2D4 /* WebBrowserVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebBrowserVC.swift; sourceTree = "<group>"; };
 		CB5F651C2C2E90970017E2D4 /* htmlView.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = htmlView.html; sourceTree = "<group>"; };
+		CB5F651E2C2E94F30017E2D4 /* WebBroswerMission.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebBroswerMission.swift; sourceTree = "<group>"; };
+		CB5F65222C2E957B0017E2D4 /* htmlMissionView.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = htmlMissionView.html; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -205,6 +209,8 @@
 			children = (
 				CB5F651A2C2D5CB50017E2D4 /* WebBrowserVC.swift */,
 				CB5F651C2C2E90970017E2D4 /* htmlView.html */,
+				CB5F651E2C2E94F30017E2D4 /* WebBroswerMission.swift */,
+				CB5F65222C2E957B0017E2D4 /* htmlMissionView.html */,
 			);
 			path = "07-WebBrowser";
 			sourceTree = "<group>";
@@ -289,6 +295,7 @@
 				CB5F650A2C2C01A20017E2D4 /* 반도체대학.png in Resources */,
 				CB5F65132C2D522C0017E2D4 /* lampRemove.png in Resources */,
 				CB5F65032C2C01A20017E2D4 /* 가천관.png in Resources */,
+				CB5F65232C2E957B0017E2D4 /* htmlMissionView.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,6 +306,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB5F651F2C2E94F30017E2D4 /* WebBroswerMission.swift in Sources */,
 				CB5F64D12C2A9FD40017E2D4 /* ViewController02_Mission.swift in Sources */,
 				CB5F65182C2D57540017E2D4 /* ClockAlertVC.swift in Sources */,
 				CB5F651B2C2D5CB50017E2D4 /* WebBrowserVC.swift in Sources */,
