@@ -37,6 +37,7 @@
 		CB5F65142C2D522C0017E2D4 /* lampOn.png in Resources */ = {isa = PBXBuildFile; fileRef = CB5F65112C2D522C0017E2D4 /* lampOn.png */; };
 		CB5F65152C2D522C0017E2D4 /* lampOff.png in Resources */ = {isa = PBXBuildFile; fileRef = CB5F65122C2D522C0017E2D4 /* lampOff.png */; };
 		CB5F65182C2D57540017E2D4 /* ClockAlertVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB5F65172C2D57540017E2D4 /* ClockAlertVC.swift */; };
+		CB5F651B2C2D5CB50017E2D4 /* WebBrowserVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB5F651A2C2D5CB50017E2D4 /* WebBrowserVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -72,6 +73,7 @@
 		CB5F65112C2D522C0017E2D4 /* lampOn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lampOn.png; sourceTree = "<group>"; };
 		CB5F65122C2D522C0017E2D4 /* lampOff.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lampOff.png; sourceTree = "<group>"; };
 		CB5F65172C2D57540017E2D4 /* ClockAlertVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockAlertVC.swift; sourceTree = "<group>"; };
+		CB5F651A2C2D5CB50017E2D4 /* WebBrowserVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebBrowserVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 		CB3BB0A12C294CFF007C5E79 /* Do-it-Swift */ = {
 			isa = PBXGroup;
 			children = (
+				CB5F65192C2D5C960017E2D4 /* 07-WebBrowser */,
 				CB5F650D2C2D4C250017E2D4 /* 06-Alert */,
 				CB5F64DD2C2C012A0017E2D4 /* 05-Picker */,
 				CB5F64DA2C2BF7C50017E2D4 /* 04-DatePicker */,
@@ -193,6 +196,14 @@
 				CB5F65102C2D522C0017E2D4 /* lampRemove.png */,
 			);
 			path = image;
+			sourceTree = "<group>";
+		};
+		CB5F65192C2D5C960017E2D4 /* 07-WebBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				CB5F651A2C2D5CB50017E2D4 /* WebBrowserVC.swift */,
+			);
+			path = "07-WebBrowser";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -286,6 +297,7 @@
 			files = (
 				CB5F64D12C2A9FD40017E2D4 /* ViewController02_Mission.swift in Sources */,
 				CB5F65182C2D57540017E2D4 /* ClockAlertVC.swift in Sources */,
+				CB5F651B2C2D5CB50017E2D4 /* WebBrowserVC.swift in Sources */,
 				CB5F650F2C2D4C3D0017E2D4 /* AlertVC.swift in Sources */,
 				CB5F64DF2C2C01430017E2D4 /* PickerVC.swift in Sources */,
 				CB5F64DC2C2BF7D70017E2D4 /* ViewController04.swift in Sources */,
