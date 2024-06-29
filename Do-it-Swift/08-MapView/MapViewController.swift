@@ -27,17 +27,30 @@ class MapViewController : UIViewController, CLLocationManagerDelegate {
     }
     
     // 위도, 경도, 범위를 인수로 받음
-    func goLocation(latitudeValue : CLLocationDegrees, longitudeValue : CLLocationDegrees, delta span : Double){
+    func goLocation(latitudeValue : CLLocationDegrees, longitudeValue : CLLocationDegrees, delta span : Double) -> CLLocationCoordinate2D{
         let pLocation = CLLocationCoordinate2DMake(latitudeValue, longitudeValue)   // 위도, 경도 값을 이용하여 location 설정
         let spanValue = MKCoordinateSpan(latitudeDelta: span, longitudeDelta: span) // 범위 값을 이용하여 span 설정
         let pRegion = MKCoordinateRegion(center: pLocation, span: spanValue)        // location, span을 이용하여 region 설정
         myMap.setRegion(pRegion, animated: true)        // 지도 위치 및 범위 설정
+        
+        return pLocation
     }
+    
+    // 원하는 위치에 핀 설치
+    func setAnnotation(latitudeValue : CLLocationDegrees, longitudeValue : CLLocationDegrees, delta span : Double, title strTitle : String, subtitle strSubtitle : String){
+        let annotation = MKPointAnnotation()
+        annotation.coordinate = goLocation(latitudeValue: latitudeValue, longitudeValue: longitudeValue, delta: span)
+        
+        annotation.title = strTitle
+        annotation.subtitle = strSubtitle
+        myMap.addAnnotation(annotation)
+    }
+    
     
     // 위치가 업데이트 되었을 때 실행되는 함수
     func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
         let pLocation = locations.last  // 업데이트 된 마지막 위치 값
-        goLocation(latitudeValue: (pLocation?.coordinate.latitude)!, longitudeValue: (pLocation?.coordinate.longitude)!, delta: 0.01)
+        _ = goLocation(latitudeValue: (pLocation?.coordinate.latitude)!, longitudeValue: (pLocation?.coordinate.longitude)!, delta: 0.01)
         // Delta 값이 작을수록 지도를 확대, 0.01은 1의 값보다 지도를 100배로 확대해서 보여줌
         
         // 위도와 경도 값을 가지고 역으로 위치의 정보, 즉 주소를 찾음
@@ -64,5 +77,21 @@ class MapViewController : UIViewController, CLLocationManagerDelegate {
     }
     
     @IBAction func sgChangeLocation(_ sender: UISegmentedControl) {
+        if sender.selectedSegmentIndex == 0 {           // 현재 위치
+            self.lblLocationInfo1.text = ""
+            self.lblLocationInfo2.text = ""
+            locationManager.startUpdatingLocation()
+            
+        } else if sender.selectedSegmentIndex == 1 {    // 폴리텍대학
+            setAnnotation(latitudeValue: 37.751853, longitudeValue: 128.87605740000004, delta: 1, title: "한국폴레텍대학 강를캠퍼스", subtitle: "강원도 강릉시 남산초교길 121")
+            self.lblLocationInfo1.text = "보고 계신 위치"
+            self.lblLocationInfo2.text = "한국폴리텍대학 강릉캠퍼스"
+            
+        } else if sender.selectedSegmentIndex == 2 {    // 이지스퍼블리싱
+            setAnnotation(latitudeValue: 37.556876, longitudeValue: 126.914006, delta: 0.1, title: "이지스퍼블리싱", subtitle: "서울시 마포구 잔다리로 109 이지스 빌딩")
+            self.lblLocationInfo1.text = "보고 계신 위치"
+            self.lblLocationInfo2.text = "이지스퍼블리싱 출판사"
+            
+        }
     }
 }
