@@ -91,7 +91,10 @@ class MapViewController : UIViewController, CLLocationManagerDelegate {
             setAnnotation(latitudeValue: 37.556876, longitudeValue: 126.914006, delta: 0.1, title: "이지스퍼블리싱", subtitle: "서울시 마포구 잔다리로 109 이지스 빌딩")
             self.lblLocationInfo1.text = "보고 계신 위치"
             self.lblLocationInfo2.text = "이지스퍼블리싱 출판사"
-            
+        } else if sender.selectedSegmentIndex == 3 {    // 우리집
+            setAnnotation(latitudeValue: 37.455161, longitudeValue: 127.133723, delta: 0.1, title: "우리집", subtitle: "경기도 성남시 수정구 복정동 도 495 가천대학교 글로벌캠퍼스 AI 공학관")
+            self.lblLocationInfo1.text = "보고 계신 위치"
+            self.lblLocationInfo2.text = "우리집"
         }
     }
 }

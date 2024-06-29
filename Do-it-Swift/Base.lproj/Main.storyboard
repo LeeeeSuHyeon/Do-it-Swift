@@ -430,13 +430,14 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="gjh-wQ-R4F">
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" apportionsSegmentWidthsByContent="YES" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="gjh-wQ-R4F">
                                 <rect key="frame" x="16" y="85" width="361" height="32"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <segments>
                                     <segment title="현재위치"/>
                                     <segment title="한국폴리텍대학교"/>
                                     <segment title="이지스퍼블리싱"/>
+                                    <segment title="우리집"/>
                                 </segments>
                                 <connections>
                                     <action selector="sgChangeLocation:" destination="ElE-Fo-wyu" eventType="valueChanged" id="KO1-gx-seB"/>
