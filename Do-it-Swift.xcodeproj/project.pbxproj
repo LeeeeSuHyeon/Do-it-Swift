@@ -41,6 +41,7 @@
 		CB5F651D2C2E90970017E2D4 /* htmlView.html in Resources */ = {isa = PBXBuildFile; fileRef = CB5F651C2C2E90970017E2D4 /* htmlView.html */; };
 		CB5F651F2C2E94F30017E2D4 /* WebBroswerMission.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB5F651E2C2E94F30017E2D4 /* WebBroswerMission.swift */; };
 		CB5F65232C2E957B0017E2D4 /* htmlMissionView.html in Resources */ = {isa = PBXBuildFile; fileRef = CB5F65222C2E957B0017E2D4 /* htmlMissionView.html */; };
+		CB5F65262C2FE3720017E2D4 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB5F65252C2FE3720017E2D4 /* MapViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -80,6 +81,7 @@
 		CB5F651C2C2E90970017E2D4 /* htmlView.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = htmlView.html; sourceTree = "<group>"; };
 		CB5F651E2C2E94F30017E2D4 /* WebBroswerMission.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebBroswerMission.swift; sourceTree = "<group>"; };
 		CB5F65222C2E957B0017E2D4 /* htmlMissionView.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = htmlMissionView.html; sourceTree = "<group>"; };
+		CB5F65252C2FE3720017E2D4 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +114,7 @@
 		CB3BB0A12C294CFF007C5E79 /* Do-it-Swift */ = {
 			isa = PBXGroup;
 			children = (
+				CB5F65242C2FE33F0017E2D4 /* 08-MapView */,
 				CB5F65192C2D5C960017E2D4 /* 07-WebBrowser */,
 				CB5F650D2C2D4C250017E2D4 /* 06-Alert */,
 				CB5F64DD2C2C012A0017E2D4 /* 05-Picker */,
@@ -215,6 +218,14 @@
 			path = "07-WebBrowser";
 			sourceTree = "<group>";
 		};
+		CB5F65242C2FE33F0017E2D4 /* 08-MapView */ = {
+			isa = PBXGroup;
+			children = (
+				CB5F65252C2FE3720017E2D4 /* MapViewController.swift */,
+			);
+			path = "08-MapView";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -313,6 +324,7 @@
 				CB5F650F2C2D4C3D0017E2D4 /* AlertVC.swift in Sources */,
 				CB5F64DF2C2C01430017E2D4 /* PickerVC.swift in Sources */,
 				CB5F64DC2C2BF7D70017E2D4 /* ViewController04.swift in Sources */,
+				CB5F65262C2FE3720017E2D4 /* MapViewController.swift in Sources */,
 				CB3BB0A72C294CFF007C5E79 /* ViewController01.swift in Sources */,
 				CB3BB0A32C294CFF007C5E79 /* AppDelegate.swift in Sources */,
 				CB5F64C92C2A99400017E2D4 /* ViewController02.swift in Sources */,
