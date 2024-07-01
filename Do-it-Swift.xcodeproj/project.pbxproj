@@ -232,9 +232,17 @@
 		CB64DFCE2C31A37A008FF280 /* 09-PageControl */ = {
 			isa = PBXGroup;
 			children = (
+				CB64DFD12C3286AF008FF280 /* image */,
 				CB64DFCF2C31A38D008FF280 /* PageControlVC.swift */,
 			);
 			path = "09-PageControl";
+			sourceTree = "<group>";
+		};
+		CB64DFD12C3286AF008FF280 /* image */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = image;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
