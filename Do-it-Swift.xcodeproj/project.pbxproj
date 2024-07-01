@@ -43,6 +43,7 @@
 		CB5F65232C2E957B0017E2D4 /* htmlMissionView.html in Resources */ = {isa = PBXBuildFile; fileRef = CB5F65222C2E957B0017E2D4 /* htmlMissionView.html */; };
 		CB5F65262C2FE3720017E2D4 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB5F65252C2FE3720017E2D4 /* MapViewController.swift */; };
 		CB64DFD02C31A38D008FF280 /* PageControlVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB64DFCF2C31A38D008FF280 /* PageControlVC.swift */; };
+		CB64DFD32C3288CD008FF280 /* PageControlMissionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB64DFD22C3288CD008FF280 /* PageControlMissionVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -84,6 +85,7 @@
 		CB5F65222C2E957B0017E2D4 /* htmlMissionView.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = htmlMissionView.html; sourceTree = "<group>"; };
 		CB5F65252C2FE3720017E2D4 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		CB64DFCF2C31A38D008FF280 /* PageControlVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageControlVC.swift; sourceTree = "<group>"; };
+		CB64DFD22C3288CD008FF280 /* PageControlMissionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageControlMissionVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -232,17 +234,10 @@
 		CB64DFCE2C31A37A008FF280 /* 09-PageControl */ = {
 			isa = PBXGroup;
 			children = (
-				CB64DFD12C3286AF008FF280 /* image */,
 				CB64DFCF2C31A38D008FF280 /* PageControlVC.swift */,
+				CB64DFD22C3288CD008FF280 /* PageControlMissionVC.swift */,
 			);
 			path = "09-PageControl";
-			sourceTree = "<group>";
-		};
-		CB64DFD12C3286AF008FF280 /* image */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = image;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -348,6 +343,7 @@
 				CB3BB0A72C294CFF007C5E79 /* ViewController01.swift in Sources */,
 				CB3BB0A32C294CFF007C5E79 /* AppDelegate.swift in Sources */,
 				CB5F64C92C2A99400017E2D4 /* ViewController02.swift in Sources */,
+				CB64DFD32C3288CD008FF280 /* PageControlMissionVC.swift in Sources */,
 				CB3BB0A52C294CFF007C5E79 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
