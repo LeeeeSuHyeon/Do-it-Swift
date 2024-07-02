@@ -8,11 +8,15 @@
 import UIKit
 
 class NavigationVC : ViewController, EditDelegate{
-    
+
     let imgOn = UIImage(named: "lampOn.png")
     let imgOff = UIImage(named: "lampOff.png")
     
     var isOn = true
+    var isZoom = true
+    
+    let width = 100.0
+    let height = 200.0
     
     @IBOutlet weak var txMessage: UITextField!
     @IBOutlet weak var imgView: UIImageView!
@@ -40,6 +44,7 @@ class NavigationVC : ViewController, EditDelegate{
         
         editViewController.textMessage = txMessage.text!
         editViewController.isOn = isOn
+        editViewController.isZoom = isZoom
         editViewController.delegate = self
     }
     
@@ -54,6 +59,19 @@ class NavigationVC : ViewController, EditDelegate{
         } else {
             imgView.image = imgOff
             self.isOn = false
+        }
+    }
+    
+    func didImageZoomDone(_ controller: EditViewController, isZoom: Bool) {
+        if isZoom {
+            let newWidth = width * 1.5
+            let newHeight = height * 1.5
+            imgView.frame.size = CGSize(width: newWidth, height: newHeight)
+            self.isZoom = true
+        }
+        else {
+            imgView.frame.size = CGSize(width: self.width, height: self.height)
+            self.isZoom = false
         }
     }
 }
