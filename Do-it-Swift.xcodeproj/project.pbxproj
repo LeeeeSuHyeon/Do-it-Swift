@@ -46,6 +46,8 @@
 		CB64DFD32C3288CD008FF280 /* PageControlMissionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB64DFD22C3288CD008FF280 /* PageControlMissionVC.swift */; };
 		CB64DFD62C328AEA008FF280 /* TabBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB64DFD52C328AEA008FF280 /* TabBarVC.swift */; };
 		CB64DFD82C328E94008FF280 /* file.png in Resources */ = {isa = PBXBuildFile; fileRef = CB64DFD72C328E93008FF280 /* file.png */; };
+		CBCE365C2C33E919006A00A2 /* NavigationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBCE365B2C33E919006A00A2 /* NavigationVC.swift */; };
+		CBCE365E2C33EA8D006A00A2 /* EditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBCE365D2C33EA8D006A00A2 /* EditViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -90,6 +92,8 @@
 		CB64DFD22C3288CD008FF280 /* PageControlMissionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageControlMissionVC.swift; sourceTree = "<group>"; };
 		CB64DFD52C328AEA008FF280 /* TabBarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarVC.swift; sourceTree = "<group>"; };
 		CB64DFD72C328E93008FF280 /* file.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = file.png; sourceTree = "<group>"; };
+		CBCE365B2C33E919006A00A2 /* NavigationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationVC.swift; sourceTree = "<group>"; };
+		CBCE365D2C33EA8D006A00A2 /* EditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +126,7 @@
 		CB3BB0A12C294CFF007C5E79 /* Do-it-Swift */ = {
 			isa = PBXGroup;
 			children = (
+				CBCE365A2C33E908006A00A2 /* 11-Navigation */,
 				CB64DFD42C328AD9008FF280 /* 10-TabBar */,
 				CB64DFCE2C31A37A008FF280 /* 09-PageControl */,
 				CB5F65242C2FE33F0017E2D4 /* 08-MapView */,
@@ -254,6 +259,15 @@
 			path = "10-TabBar";
 			sourceTree = "<group>";
 		};
+		CBCE365A2C33E908006A00A2 /* 11-Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				CBCE365B2C33E919006A00A2 /* NavigationVC.swift */,
+				CBCE365D2C33EA8D006A00A2 /* EditViewController.swift */,
+			);
+			path = "11-Navigation";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -352,6 +366,8 @@
 				CB64DFD02C31A38D008FF280 /* PageControlVC.swift in Sources */,
 				CB5F651B2C2D5CB50017E2D4 /* WebBrowserVC.swift in Sources */,
 				CB5F650F2C2D4C3D0017E2D4 /* AlertVC.swift in Sources */,
+				CBCE365C2C33E919006A00A2 /* NavigationVC.swift in Sources */,
+				CBCE365E2C33EA8D006A00A2 /* EditViewController.swift in Sources */,
 				CB5F64DF2C2C01430017E2D4 /* PickerVC.swift in Sources */,
 				CB64DFD62C328AEA008FF280 /* TabBarVC.swift in Sources */,
 				CB5F64DC2C2BF7D70017E2D4 /* ViewController04.swift in Sources */,
