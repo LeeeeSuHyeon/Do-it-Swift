@@ -13,6 +13,7 @@
 		CB20602D2C352387009A36A7 /* pen.png in Resources */ = {isa = PBXBuildFile; fileRef = CB20602A2C352387009A36A7 /* pen.png */; };
 		CB20602E2C352387009A36A7 /* cart.png in Resources */ = {isa = PBXBuildFile; fileRef = CB20602B2C352387009A36A7 /* cart.png */; };
 		CB20602F2C352387009A36A7 /* clock.png in Resources */ = {isa = PBXBuildFile; fileRef = CB20602C2C352387009A36A7 /* clock.png */; };
+		CB2060322C354B73009A36A7 /* AutoLayoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB2060312C354B73009A36A7 /* AutoLayoutViewController.swift */; };
 		CB3BB0A32C294CFF007C5E79 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3BB0A22C294CFF007C5E79 /* AppDelegate.swift */; };
 		CB3BB0A52C294CFF007C5E79 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3BB0A42C294CFF007C5E79 /* SceneDelegate.swift */; };
 		CB3BB0A72C294CFF007C5E79 /* ViewController01.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3BB0A62C294CFF007C5E79 /* ViewController01.swift */; };
@@ -63,6 +64,7 @@
 		CB20602A2C352387009A36A7 /* pen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pen.png; sourceTree = "<group>"; };
 		CB20602B2C352387009A36A7 /* cart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cart.png; sourceTree = "<group>"; };
 		CB20602C2C352387009A36A7 /* clock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clock.png; sourceTree = "<group>"; };
+		CB2060312C354B73009A36A7 /* AutoLayoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoLayoutViewController.swift; sourceTree = "<group>"; };
 		CB3BB09F2C294CFF007C5E79 /* Do-it-Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Do-it-Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB3BB0A22C294CFF007C5E79 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CB3BB0A42C294CFF007C5E79 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -132,6 +134,14 @@
 			path = "12-TableView";
 			sourceTree = "<group>";
 		};
+		CB2060302C354B53009A36A7 /* 12-1-AutoLayout */ = {
+			isa = PBXGroup;
+			children = (
+				CB2060312C354B73009A36A7 /* AutoLayoutViewController.swift */,
+			);
+			path = "12-1-AutoLayout";
+			sourceTree = "<group>";
+		};
 		CB3BB0962C294CFF007C5E79 = {
 			isa = PBXGroup;
 			children = (
@@ -151,6 +161,7 @@
 		CB3BB0A12C294CFF007C5E79 /* Do-it-Swift */ = {
 			isa = PBXGroup;
 			children = (
+				CB2060302C354B53009A36A7 /* 12-1-AutoLayout */,
 				CB2060232C351EC3009A36A7 /* 12-TableView */,
 				CBCE365A2C33E908006A00A2 /* 11-Navigation */,
 				CB64DFD42C328AD9008FF280 /* 10-TabBar */,
@@ -403,6 +414,7 @@
 				CB5F64DF2C2C01430017E2D4 /* PickerVC.swift in Sources */,
 				CB64DFD62C328AEA008FF280 /* TabBarVC.swift in Sources */,
 				CB5F64DC2C2BF7D70017E2D4 /* ViewController04.swift in Sources */,
+				CB2060322C354B73009A36A7 /* AutoLayoutViewController.swift in Sources */,
 				CB5F65262C2FE3720017E2D4 /* MapViewController.swift in Sources */,
 				CB3BB0A72C294CFF007C5E79 /* ViewController01.swift in Sources */,
 				CB3BB0A32C294CFF007C5E79 /* AppDelegate.swift in Sources */,

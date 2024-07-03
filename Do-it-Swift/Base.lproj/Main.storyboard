@@ -1100,11 +1100,38 @@
             </objects>
             <point key="canvasLocation" x="1047" y="7552"/>
         </scene>
+        <!--Auto Layout View Controller-->
+        <scene sceneID="vAg-Ss-Vok">
+            <objects>
+                <viewController id="uyI-yX-W1O" customClass="AutoLayoutViewController" customModule="Do_it_Swift" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="HMd-6o-hvg">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="MuhanStart.png" translatesAutoresizingMaskIntoConstraints="NO" id="dsG-dn-bxZ">
+                                <rect key="frame" x="16" y="59" width="361" height="759"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="jwf-yr-HOn"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="dsG-dn-bxZ" firstAttribute="bottom" secondItem="jwf-yr-HOn" secondAttribute="bottom" id="aXZ-UX-QtO"/>
+                            <constraint firstItem="dsG-dn-bxZ" firstAttribute="top" secondItem="jwf-yr-HOn" secondAttribute="top" id="hH0-Cb-f1H"/>
+                            <constraint firstItem="jwf-yr-HOn" firstAttribute="trailing" secondItem="dsG-dn-bxZ" secondAttribute="trailing" constant="16" id="kaG-pt-pVn"/>
+                            <constraint firstItem="dsG-dn-bxZ" firstAttribute="leading" secondItem="jwf-yr-HOn" secondAttribute="leading" constant="16" id="ytX-jq-Std"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FjS-WW-vFg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="994.6564885496183" y="8710.5633802816901"/>
+        </scene>
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="kV2-XL-sUJ"/>
     </inferredMetricsTieBreakers>
     <resources>
+        <image name="MuhanStart.png" width="1400" height="1400"/>
         <image name="file.png" width="48" height="48"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
