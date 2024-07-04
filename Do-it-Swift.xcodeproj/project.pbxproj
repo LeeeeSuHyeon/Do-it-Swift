@@ -16,6 +16,10 @@
 		CB2060322C354B73009A36A7 /* AutoLayoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB2060312C354B73009A36A7 /* AutoLayoutViewController.swift */; };
 		CB2060352C3690D6009A36A7 /* AudioPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB2060342C3690D6009A36A7 /* AudioPlayerViewController.swift */; };
 		CB2060372C369431009A36A7 /* mp.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CB2060362C369431009A36A7 /* mp.mp3 */; };
+		CB20603C2C36A170009A36A7 /* record.png in Resources */ = {isa = PBXBuildFile; fileRef = CB2060382C36A170009A36A7 /* record.png */; };
+		CB20603D2C36A170009A36A7 /* stop.png in Resources */ = {isa = PBXBuildFile; fileRef = CB2060392C36A170009A36A7 /* stop.png */; };
+		CB20603E2C36A170009A36A7 /* play.png in Resources */ = {isa = PBXBuildFile; fileRef = CB20603A2C36A170009A36A7 /* play.png */; };
+		CB20603F2C36A170009A36A7 /* pause.png in Resources */ = {isa = PBXBuildFile; fileRef = CB20603B2C36A170009A36A7 /* pause.png */; };
 		CB3BB0A32C294CFF007C5E79 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3BB0A22C294CFF007C5E79 /* AppDelegate.swift */; };
 		CB3BB0A52C294CFF007C5E79 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3BB0A42C294CFF007C5E79 /* SceneDelegate.swift */; };
 		CB3BB0A72C294CFF007C5E79 /* ViewController01.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3BB0A62C294CFF007C5E79 /* ViewController01.swift */; };
@@ -69,6 +73,10 @@
 		CB2060312C354B73009A36A7 /* AutoLayoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoLayoutViewController.swift; sourceTree = "<group>"; };
 		CB2060342C3690D6009A36A7 /* AudioPlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayerViewController.swift; sourceTree = "<group>"; };
 		CB2060362C369431009A36A7 /* mp.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = mp.mp3; sourceTree = "<group>"; };
+		CB2060382C36A170009A36A7 /* record.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = record.png; sourceTree = "<group>"; };
+		CB2060392C36A170009A36A7 /* stop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stop.png; sourceTree = "<group>"; };
+		CB20603A2C36A170009A36A7 /* play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play.png; sourceTree = "<group>"; };
+		CB20603B2C36A170009A36A7 /* pause.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pause.png; sourceTree = "<group>"; };
 		CB3BB09F2C294CFF007C5E79 /* Do-it-Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Do-it-Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB3BB0A22C294CFF007C5E79 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CB3BB0A42C294CFF007C5E79 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -150,6 +158,10 @@
 			isa = PBXGroup;
 			children = (
 				CB2060362C369431009A36A7 /* mp.mp3 */,
+				CB20603B2C36A170009A36A7 /* pause.png */,
+				CB20603A2C36A170009A36A7 /* play.png */,
+				CB2060382C36A170009A36A7 /* record.png */,
+				CB2060392C36A170009A36A7 /* stop.png */,
 				CB2060342C3690D6009A36A7 /* AudioPlayerViewController.swift */,
 			);
 			path = "13. AudioPlayer";
@@ -388,6 +400,7 @@
 				CB5F64CC2C2A9A380017E2D4 /* left.png in Resources */,
 				CB5F651D2C2E90970017E2D4 /* htmlView.html in Resources */,
 				CB5F64FB2C2C01A20017E2D4 /* 바이오나노연구원.png in Resources */,
+				CB20603D2C36A170009A36A7 /* stop.png in Resources */,
 				CB5F65012C2C01A20017E2D4 /* 공과대학2.png in Resources */,
 				CB5F64D62C2AA0FA0017E2D4 /* couple_01-1.png in Resources */,
 				CB5F64F62C2C01A20017E2D4 /* 대학원_평생교육원.png in Resources */,
@@ -396,10 +409,13 @@
 				CB5F64D72C2AA0FA0017E2D4 /* MuhanMiddle.png in Resources */,
 				CB5F64D92C2AA0FA0017E2D4 /* MuhanEnd.png in Resources */,
 				CB5F65022C2C01A20017E2D4 /* 바이오나노대학.png in Resources */,
+				CB20603E2C36A170009A36A7 /* play.png in Resources */,
 				CB5F64FA2C2C01A20017E2D4 /* 교육대학원.png in Resources */,
 				CB5F64F92C2C01A20017E2D4 /* 공과대학1.png in Resources */,
 				CB5F64F72C2C01A20017E2D4 /* 글로벌센터.png in Resources */,
+				CB20603C2C36A170009A36A7 /* record.png in Resources */,
 				CB5F65142C2D522C0017E2D4 /* lampOn.png in Resources */,
+				CB20603F2C36A170009A36A7 /* pause.png in Resources */,
 				CB5F650A2C2C01A20017E2D4 /* 반도체대학.png in Resources */,
 				CB20602D2C352387009A36A7 /* pen.png in Resources */,
 				CB5F65132C2D522C0017E2D4 /* lampRemove.png in Resources */,
