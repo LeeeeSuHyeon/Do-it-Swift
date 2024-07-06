@@ -17,7 +17,7 @@ class MoviePlayerViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-    // 내부 비디오 재생
+    // 내부 비디오 재생 (mp4)
     @IBAction func btnPlayInternalMovie(_ sender: UIButton) {
         // 내부 파일 mp4
         let filePath : String? = Bundle.main.path(forResource: "FastTyping", ofType: "mp4")
@@ -26,8 +26,17 @@ class MoviePlayerViewController: UIViewController {
         playVideo(url: url)
     }
     
+    // 내부 비디오 재생 (mov)
+    @IBAction func btnPlayInterMoviewMov(_ sender: UIButton) {
+        // 내부 파일 mov
+        let filePath : String? = Bundle.main.path(forResource: "Mountaineering", ofType: "mov")
+        let url = NSURL(fileURLWithPath: filePath!)
+        
+        playVideo(url: url)
+    }
     
-    // 외부 비디오 재생
+    
+    // 외부 비디오 재생(mp4)
     @IBAction func btnPlayExternalMovie(_ sender: UIButton) {
         // 외부 파일 mp4
         let url = NSURL(string: "http://dl.dropboxusercontent.com/s/e38auz050w2mvud/Fireworks.mp4")!
@@ -35,6 +44,14 @@ class MoviePlayerViewController: UIViewController {
         playVideo(url: url)
         
 
+    }
+    
+    // 외부 비디오 재생(mov)
+    @IBAction func btnPlayExternalMovieMov(_ sender: UIButton) {
+        // 외부 파일 mov
+        let url = NSURL(string: "http://dl.dropboxusercontent.com/s/ijybpprsmx0bgre/Seascape.mov")!
+        
+        playVideo(url: url)
     }
     
     private func playVideo(url : NSURL){
