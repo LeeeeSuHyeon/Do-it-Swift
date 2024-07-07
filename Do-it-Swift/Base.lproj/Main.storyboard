@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="4es-Qc-Hzo">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="JoF-88-6Ki">
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22685"/>
@@ -1538,6 +1538,92 @@
             </objects>
             <point key="canvasLocation" x="1010" y="10799"/>
         </scene>
+        <!--Camera Album Mission View Controller-->
+        <scene sceneID="fJK-ul-Ecs">
+            <objects>
+                <viewController id="JoF-88-6Ki" customClass="CameraAlbumMissionViewController" customModule="Do_it_Swift" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="qG2-ix-b0V">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="Xdd-Q3-lwO">
+                                <rect key="frame" x="16" y="59" width="361" height="759"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ox2-e1-1Ic">
+                                        <rect key="frame" x="0.0" y="0.0" width="361" height="379.66666666666669"/>
+                                        <color key="backgroundColor" systemColor="secondarySystemBackgroundColor"/>
+                                    </imageView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="xjB-ge-dax">
+                                        <rect key="frame" x="0.0" y="381.66666666666674" width="361" height="341"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="i0o-pE-5cm">
+                                                <rect key="frame" x="0.0" y="0.0" width="179.66666666666666" height="341"/>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="vaM-6L-69O">
+                                                <rect key="frame" x="181.66666666666663" y="0.0" width="179.33333333333337" height="341"/>
+                                            </imageView>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstItem="i0o-pE-5cm" firstAttribute="width" secondItem="vaM-6L-69O" secondAttribute="width" id="z4f-fB-P2G"/>
+                                        </constraints>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Kbh-Jq-2m6">
+                                        <rect key="frame" x="0.0" y="724.66666666666663" width="361" height="34.333333333333371"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nww-Ad-FIS">
+                                                <rect key="frame" x="0.0" y="0.0" width="120.33333333333333" height="34.333333333333336"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="사진 촬영"/>
+                                                <connections>
+                                                    <action selector="btnCamera:" destination="JoF-88-6Ki" eventType="touchUpInside" id="9MM-Rb-Mti"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cze-9y-0CX">
+                                                <rect key="frame" x="120.33333333333334" y="0.0" width="120.33333333333334" height="34.333333333333336"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="사진 불러오기"/>
+                                                <connections>
+                                                    <action selector="btnAlbum:" destination="JoF-88-6Ki" eventType="touchUpInside" id="2OW-8g-wtV"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g4v-Ao-F5C">
+                                                <rect key="frame" x="240.66666666666671" y="0.0" width="120.33333333333334" height="34.333333333333336"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="초기화"/>
+                                                <connections>
+                                                    <action selector="btnReset:" destination="JoF-88-6Ki" eventType="touchUpInside" id="Idl-ic-TRo"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="ox2-e1-1Ic" firstAttribute="height" secondItem="Xdd-Q3-lwO" secondAttribute="height" multiplier="0.5" id="2be-6I-QRS"/>
+                                    <constraint firstItem="ox2-e1-1Ic" firstAttribute="leading" secondItem="Xdd-Q3-lwO" secondAttribute="leading" id="QP3-Zh-Ghf"/>
+                                    <constraint firstAttribute="trailing" secondItem="ox2-e1-1Ic" secondAttribute="trailing" id="QZd-oo-0Wf"/>
+                                    <constraint firstItem="ox2-e1-1Ic" firstAttribute="top" secondItem="Xdd-Q3-lwO" secondAttribute="top" id="lA7-cv-uHd"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="0HC-lu-R1x"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Xdd-Q3-lwO" firstAttribute="leading" secondItem="0HC-lu-R1x" secondAttribute="leading" constant="16" id="31S-cW-t2b"/>
+                            <constraint firstItem="0HC-lu-R1x" firstAttribute="bottom" secondItem="Xdd-Q3-lwO" secondAttribute="bottom" id="Ewq-Ij-45e"/>
+                            <constraint firstItem="Xdd-Q3-lwO" firstAttribute="top" secondItem="0HC-lu-R1x" secondAttribute="top" id="Slo-p8-0Zw"/>
+                            <constraint firstItem="0HC-lu-R1x" firstAttribute="trailing" secondItem="Xdd-Q3-lwO" secondAttribute="trailing" constant="16" id="ipt-uW-J1L"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="imgViewFirst" destination="ox2-e1-1Ic" id="Nks-u3-aVv"/>
+                        <outlet property="imgViewSecond" destination="i0o-pE-5cm" id="hel-xi-4gI"/>
+                        <outlet property="imgViewThird" destination="vaM-6L-69O" id="TqC-Am-okR"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BsY-zo-lYi" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2092" y="10787"/>
+        </scene>
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="kV2-XL-sUJ"/>
@@ -1549,6 +1635,9 @@
         <image name="MuhanStart.png" width="1400" height="1400"/>
         <image name="Seascape.jpg" width="640" height="360"/>
         <image name="file.png" width="48" height="48"/>
+        <systemColor name="secondarySystemBackgroundColor">
+            <color red="0.94901960780000005" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

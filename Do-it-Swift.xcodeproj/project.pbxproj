@@ -28,6 +28,7 @@
 		CB20604E2C3943B4009A36A7 /* Seascape.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CB20604B2C3943B4009A36A7 /* Seascape.jpg */; };
 		CB20604F2C3943B4009A36A7 /* Mountaineering.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CB20604C2C3943B4009A36A7 /* Mountaineering.jpg */; };
 		CB2060522C3AC135009A36A7 /* CameraPhotoLibraryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB2060512C3AC135009A36A7 /* CameraPhotoLibraryViewController.swift */; };
+		CB2060542C3AC783009A36A7 /* CameraAlbumMissionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB2060532C3AC783009A36A7 /* CameraAlbumMissionViewController.swift */; };
 		CB3BB0A32C294CFF007C5E79 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3BB0A22C294CFF007C5E79 /* AppDelegate.swift */; };
 		CB3BB0A52C294CFF007C5E79 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3BB0A42C294CFF007C5E79 /* SceneDelegate.swift */; };
 		CB3BB0A72C294CFF007C5E79 /* ViewController01.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3BB0A62C294CFF007C5E79 /* ViewController01.swift */; };
@@ -93,6 +94,7 @@
 		CB20604B2C3943B4009A36A7 /* Seascape.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Seascape.jpg; sourceTree = "<group>"; };
 		CB20604C2C3943B4009A36A7 /* Mountaineering.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Mountaineering.jpg; sourceTree = "<group>"; };
 		CB2060512C3AC135009A36A7 /* CameraPhotoLibraryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraPhotoLibraryViewController.swift; sourceTree = "<group>"; };
+		CB2060532C3AC783009A36A7 /* CameraAlbumMissionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraAlbumMissionViewController.swift; sourceTree = "<group>"; };
 		CB3BB09F2C294CFF007C5E79 /* Do-it-Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Do-it-Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB3BB0A22C294CFF007C5E79 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CB3BB0A42C294CFF007C5E79 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -209,6 +211,7 @@
 			isa = PBXGroup;
 			children = (
 				CB2060512C3AC135009A36A7 /* CameraPhotoLibraryViewController.swift */,
+				CB2060532C3AC783009A36A7 /* CameraAlbumMissionViewController.swift */,
 			);
 			path = "15-Camer-Library";
 			sourceTree = "<group>";
@@ -489,6 +492,7 @@
 				CB5F64D12C2A9FD40017E2D4 /* ViewController02_Mission.swift in Sources */,
 				CB2060352C3690D6009A36A7 /* AudioPlayerViewController.swift in Sources */,
 				CB5F65182C2D57540017E2D4 /* ClockAlertVC.swift in Sources */,
+				CB2060542C3AC783009A36A7 /* CameraAlbumMissionViewController.swift in Sources */,
 				CB64DFD02C31A38D008FF280 /* PageControlVC.swift in Sources */,
 				CB5F651B2C2D5CB50017E2D4 /* WebBrowserVC.swift in Sources */,
 				CB5F650F2C2D4C3D0017E2D4 /* AlertVC.swift in Sources */,
