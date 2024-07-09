@@ -30,6 +30,7 @@
 		CB2060522C3AC135009A36A7 /* CameraPhotoLibraryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB2060512C3AC135009A36A7 /* CameraPhotoLibraryViewController.swift */; };
 		CB2060542C3AC783009A36A7 /* CameraAlbumMissionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB2060532C3AC783009A36A7 /* CameraAlbumMissionViewController.swift */; };
 		CB2060572C3BBD8E009A36A7 /* CoreGraphicsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB2060562C3BBD8E009A36A7 /* CoreGraphicsViewController.swift */; };
+		CB2060592C3D349E009A36A7 /* CoreGraphicsMissionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB2060582C3D349E009A36A7 /* CoreGraphicsMissionViewController.swift */; };
 		CB3BB0A32C294CFF007C5E79 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3BB0A22C294CFF007C5E79 /* AppDelegate.swift */; };
 		CB3BB0A52C294CFF007C5E79 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3BB0A42C294CFF007C5E79 /* SceneDelegate.swift */; };
 		CB3BB0A72C294CFF007C5E79 /* ViewController01.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3BB0A62C294CFF007C5E79 /* ViewController01.swift */; };
@@ -97,6 +98,7 @@
 		CB2060512C3AC135009A36A7 /* CameraPhotoLibraryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraPhotoLibraryViewController.swift; sourceTree = "<group>"; };
 		CB2060532C3AC783009A36A7 /* CameraAlbumMissionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraAlbumMissionViewController.swift; sourceTree = "<group>"; };
 		CB2060562C3BBD8E009A36A7 /* CoreGraphicsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreGraphicsViewController.swift; sourceTree = "<group>"; };
+		CB2060582C3D349E009A36A7 /* CoreGraphicsMissionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreGraphicsMissionViewController.swift; sourceTree = "<group>"; };
 		CB3BB09F2C294CFF007C5E79 /* Do-it-Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Do-it-Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB3BB0A22C294CFF007C5E79 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CB3BB0A42C294CFF007C5E79 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -222,6 +224,7 @@
 			isa = PBXGroup;
 			children = (
 				CB2060562C3BBD8E009A36A7 /* CoreGraphicsViewController.swift */,
+				CB2060582C3D349E009A36A7 /* CoreGraphicsMissionViewController.swift */,
 			);
 			path = "16-CoreGraphics";
 			sourceTree = "<group>";
@@ -509,6 +512,7 @@
 				CB5F651B2C2D5CB50017E2D4 /* WebBrowserVC.swift in Sources */,
 				CB5F650F2C2D4C3D0017E2D4 /* AlertVC.swift in Sources */,
 				CBCE365C2C33E919006A00A2 /* NavigationVC.swift in Sources */,
+				CB2060592C3D349E009A36A7 /* CoreGraphicsMissionViewController.swift in Sources */,
 				CB2060292C35223A009A36A7 /* DetailViewController.swift in Sources */,
 				CB2060252C352200009A36A7 /* TableViewController.swift in Sources */,
 				CB2060272C352229009A36A7 /* AddViewController.swift in Sources */,

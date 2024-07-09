@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="X4V-sY-qHl">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="l5L-QO-0QO">
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22685"/>
@@ -1631,6 +1631,61 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5h8-yk-25m" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1010" y="11506"/>
+        </scene>
+        <!--Core Graphics Mission View Controller-->
+        <scene sceneID="AlB-zM-2nL">
+            <objects>
+                <viewController id="l5L-QO-0QO" customClass="CoreGraphicsMissionViewController" customModule="Do_it_Swift" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="BjB-6b-uoI">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="Gjb-XE-0Et">
+                                <rect key="frame" x="16" y="59" width="361" height="759"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="z3q-S8-ovO">
+                                        <rect key="frame" x="0.0" y="0.0" width="361" height="34.333333333333336"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HGj-Dq-51H">
+                                                <rect key="frame" x="0.0" y="0.0" width="180.66666666666666" height="34.333333333333336"/>
+                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                <state key="normal" title="그림 그리기"/>
+                                                <connections>
+                                                    <action selector="btnDraw:" destination="l5L-QO-0QO" eventType="touchUpInside" id="iY3-EQ-Uhr"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rBg-fp-Owl">
+                                                <rect key="frame" x="180.66666666666663" y="0.0" width="180.33333333333337" height="34.333333333333336"/>
+                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                <state key="normal" title="그림 지우기"/>
+                                                <connections>
+                                                    <action selector="btnDelete:" destination="l5L-QO-0QO" eventType="touchUpInside" id="M02-OB-Uey"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="0kH-DD-ffR">
+                                        <rect key="frame" x="0.0" y="34.333333333333314" width="361" height="724.66666666666674"/>
+                                    </imageView>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="ANm-Z6-SaT"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="ANm-Z6-SaT" firstAttribute="bottom" secondItem="Gjb-XE-0Et" secondAttribute="bottom" id="MrJ-sc-Rs0"/>
+                            <constraint firstItem="Gjb-XE-0Et" firstAttribute="leading" secondItem="ANm-Z6-SaT" secondAttribute="leading" constant="16" id="aqO-Iu-NUF"/>
+                            <constraint firstAttribute="trailing" secondItem="Gjb-XE-0Et" secondAttribute="trailing" constant="16" id="mFs-A5-ykS"/>
+                            <constraint firstItem="Gjb-XE-0Et" firstAttribute="top" secondItem="ANm-Z6-SaT" secondAttribute="top" id="oru-Ip-xky"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="imgView" destination="0kH-DD-ffR" id="gcv-Eo-JWJ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8SU-lZ-n5b" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2108" y="11506"/>
         </scene>
         <!--Camera Album Mission View Controller-->
         <scene sceneID="fJK-ul-Ecs">
