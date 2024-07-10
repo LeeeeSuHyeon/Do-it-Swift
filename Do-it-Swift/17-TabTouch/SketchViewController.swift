@@ -10,6 +10,7 @@ import UIKit
 class SketchViewController: UIViewController {
 
     @IBOutlet weak var imgView: UIImageView!
+    @IBOutlet weak var txtSetWidth: UITextField!
     
     var lastPoint : CGPoint!
     var lineSize : CGFloat = 2.0
@@ -17,6 +18,7 @@ class SketchViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        txtSetWidth.text = "2"
 
     }
     
@@ -75,5 +77,27 @@ class SketchViewController: UIViewController {
 
     @IBAction func btnClearImageView(_ sender: UIButton) {
         imgView.image = nil
+    }
+    
+    @IBAction func btnBlackLine(_ sender: UIButton) {
+        lineColor = UIColor.black.cgColor
+    }
+    
+    @IBAction func btnRedLine(_ sender: UIButton) {
+        lineColor = UIColor.red.cgColor
+    }
+    
+    @IBAction func btnGreenLine(_ sender: UIButton) {
+        lineColor = UIColor.green.cgColor
+    }
+    
+    @IBAction func btnBlueLine(_ sender: UIButton) {
+        lineColor = UIColor.blue.cgColor
+    }
+    
+    @IBAction func btnSetLineWidth(_ sender: UIButton) {
+        if let newWidth = Float(txtSetWidth.text ?? "")  {
+            lineSize = CGFloat(newWidth)
+        }
     }
 }
