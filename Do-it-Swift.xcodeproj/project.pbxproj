@@ -70,6 +70,8 @@
 		CB64DFD32C3288CD008FF280 /* PageControlMissionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB64DFD22C3288CD008FF280 /* PageControlMissionVC.swift */; };
 		CB64DFD62C328AEA008FF280 /* TabBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB64DFD52C328AEA008FF280 /* TabBarVC.swift */; };
 		CB64DFD82C328E94008FF280 /* file.png in Resources */ = {isa = PBXBuildFile; fileRef = CB64DFD72C328E93008FF280 /* file.png */; };
+		CBAA8ABE2C3EB00E00A84385 /* TabTouchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBAA8ABD2C3EB00E00A84385 /* TabTouchViewController.swift */; };
+		CBAA8AC02C3EB39C00A84385 /* SketchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBAA8ABF2C3EB39C00A84385 /* SketchViewController.swift */; };
 		CBCE365C2C33E919006A00A2 /* NavigationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBCE365B2C33E919006A00A2 /* NavigationVC.swift */; };
 		CBCE365E2C33EA8D006A00A2 /* EditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBCE365D2C33EA8D006A00A2 /* EditViewController.swift */; };
 /* End PBXBuildFile section */
@@ -140,6 +142,8 @@
 		CB64DFD22C3288CD008FF280 /* PageControlMissionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageControlMissionVC.swift; sourceTree = "<group>"; };
 		CB64DFD52C328AEA008FF280 /* TabBarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarVC.swift; sourceTree = "<group>"; };
 		CB64DFD72C328E93008FF280 /* file.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = file.png; sourceTree = "<group>"; };
+		CBAA8ABD2C3EB00E00A84385 /* TabTouchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabTouchViewController.swift; sourceTree = "<group>"; };
+		CBAA8ABF2C3EB39C00A84385 /* SketchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SketchViewController.swift; sourceTree = "<group>"; };
 		CBCE365B2C33E919006A00A2 /* NavigationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationVC.swift; sourceTree = "<group>"; };
 		CBCE365D2C33EA8D006A00A2 /* EditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -248,6 +252,7 @@
 		CB3BB0A12C294CFF007C5E79 /* Do-it-Swift */ = {
 			isa = PBXGroup;
 			children = (
+				CBAA8ABC2C3EAFFF00A84385 /* 17-TabTouch */,
 				CB2060552C3BBD73009A36A7 /* 16-CoreGraphics */,
 				CB2060502C3AC07E009A36A7 /* 15-Camer-Library */,
 				CB2060402C393E53009A36A7 /* 14-VideoPlayer */,
@@ -385,6 +390,15 @@
 				CB64DFD72C328E93008FF280 /* file.png */,
 			);
 			path = "10-TabBar";
+			sourceTree = "<group>";
+		};
+		CBAA8ABC2C3EAFFF00A84385 /* 17-TabTouch */ = {
+			isa = PBXGroup;
+			children = (
+				CBAA8ABD2C3EB00E00A84385 /* TabTouchViewController.swift */,
+				CBAA8ABF2C3EB39C00A84385 /* SketchViewController.swift */,
+			);
+			path = "17-TabTouch";
 			sourceTree = "<group>";
 		};
 		CBCE365A2C33E908006A00A2 /* 11-Navigation */ = {
@@ -526,6 +540,8 @@
 				CB5F65262C2FE3720017E2D4 /* MapViewController.swift in Sources */,
 				CB3BB0A72C294CFF007C5E79 /* ViewController01.swift in Sources */,
 				CB3BB0A32C294CFF007C5E79 /* AppDelegate.swift in Sources */,
+				CBAA8ABE2C3EB00E00A84385 /* TabTouchViewController.swift in Sources */,
+				CBAA8AC02C3EB39C00A84385 /* SketchViewController.swift in Sources */,
 				CB5F64C92C2A99400017E2D4 /* ViewController02.swift in Sources */,
 				CB64DFD32C3288CD008FF280 /* PageControlMissionVC.swift in Sources */,
 				CB3BB0A52C294CFF007C5E79 /* SceneDelegate.swift in Sources */,
