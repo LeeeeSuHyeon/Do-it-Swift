@@ -70,8 +70,21 @@
 		CB64DFD32C3288CD008FF280 /* PageControlMissionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB64DFD22C3288CD008FF280 /* PageControlMissionVC.swift */; };
 		CB64DFD62C328AEA008FF280 /* TabBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB64DFD52C328AEA008FF280 /* TabBarVC.swift */; };
 		CB64DFD82C328E94008FF280 /* file.png in Resources */ = {isa = PBXBuildFile; fileRef = CB64DFD72C328E93008FF280 /* file.png */; };
+		CB80161A2C3FB68700CAA1B8 /* arrow-left-black.png in Resources */ = {isa = PBXBuildFile; fileRef = CB80160E2C3FB68700CAA1B8 /* arrow-left-black.png */; };
+		CB80161B2C3FB68700CAA1B8 /* arrow-up-red.png in Resources */ = {isa = PBXBuildFile; fileRef = CB80160F2C3FB68700CAA1B8 /* arrow-up-red.png */; };
+		CB80161C2C3FB68700CAA1B8 /* arrow-down-red.png in Resources */ = {isa = PBXBuildFile; fileRef = CB8016102C3FB68700CAA1B8 /* arrow-down-red.png */; };
+		CB80161D2C3FB68700CAA1B8 /* arrow-right-red.png in Resources */ = {isa = PBXBuildFile; fileRef = CB8016112C3FB68700CAA1B8 /* arrow-right-red.png */; };
+		CB80161E2C3FB68700CAA1B8 /* arrow-down-green.png in Resources */ = {isa = PBXBuildFile; fileRef = CB8016122C3FB68700CAA1B8 /* arrow-down-green.png */; };
+		CB80161F2C3FB68700CAA1B8 /* arrow-right-green.png in Resources */ = {isa = PBXBuildFile; fileRef = CB8016132C3FB68700CAA1B8 /* arrow-right-green.png */; };
+		CB8016202C3FB68700CAA1B8 /* arrow-left-red.png in Resources */ = {isa = PBXBuildFile; fileRef = CB8016142C3FB68700CAA1B8 /* arrow-left-red.png */; };
+		CB8016212C3FB68700CAA1B8 /* arrow-right-black.png in Resources */ = {isa = PBXBuildFile; fileRef = CB8016152C3FB68700CAA1B8 /* arrow-right-black.png */; };
+		CB8016222C3FB68700CAA1B8 /* arrow-down-black.png in Resources */ = {isa = PBXBuildFile; fileRef = CB8016162C3FB68700CAA1B8 /* arrow-down-black.png */; };
+		CB8016232C3FB68700CAA1B8 /* arrow-left-green.png in Resources */ = {isa = PBXBuildFile; fileRef = CB8016172C3FB68700CAA1B8 /* arrow-left-green.png */; };
+		CB8016242C3FB68700CAA1B8 /* arrow-up-black.png in Resources */ = {isa = PBXBuildFile; fileRef = CB8016182C3FB68700CAA1B8 /* arrow-up-black.png */; };
+		CB8016252C3FB68700CAA1B8 /* arrow-up-green.png in Resources */ = {isa = PBXBuildFile; fileRef = CB8016192C3FB68700CAA1B8 /* arrow-up-green.png */; };
 		CBAA8ABE2C3EB00E00A84385 /* TabTouchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBAA8ABD2C3EB00E00A84385 /* TabTouchViewController.swift */; };
 		CBAA8AC02C3EB39C00A84385 /* SketchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBAA8ABF2C3EB39C00A84385 /* SketchViewController.swift */; };
+		CBAA8AC32C3FB4B900A84385 /* SwifeGestureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBAA8AC22C3FB4B900A84385 /* SwifeGestureViewController.swift */; };
 		CBCE365C2C33E919006A00A2 /* NavigationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBCE365B2C33E919006A00A2 /* NavigationVC.swift */; };
 		CBCE365E2C33EA8D006A00A2 /* EditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBCE365D2C33EA8D006A00A2 /* EditViewController.swift */; };
 /* End PBXBuildFile section */
@@ -142,8 +155,21 @@
 		CB64DFD22C3288CD008FF280 /* PageControlMissionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageControlMissionVC.swift; sourceTree = "<group>"; };
 		CB64DFD52C328AEA008FF280 /* TabBarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarVC.swift; sourceTree = "<group>"; };
 		CB64DFD72C328E93008FF280 /* file.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = file.png; sourceTree = "<group>"; };
+		CB80160E2C3FB68700CAA1B8 /* arrow-left-black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrow-left-black.png"; sourceTree = "<group>"; };
+		CB80160F2C3FB68700CAA1B8 /* arrow-up-red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrow-up-red.png"; sourceTree = "<group>"; };
+		CB8016102C3FB68700CAA1B8 /* arrow-down-red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrow-down-red.png"; sourceTree = "<group>"; };
+		CB8016112C3FB68700CAA1B8 /* arrow-right-red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrow-right-red.png"; sourceTree = "<group>"; };
+		CB8016122C3FB68700CAA1B8 /* arrow-down-green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrow-down-green.png"; sourceTree = "<group>"; };
+		CB8016132C3FB68700CAA1B8 /* arrow-right-green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrow-right-green.png"; sourceTree = "<group>"; };
+		CB8016142C3FB68700CAA1B8 /* arrow-left-red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrow-left-red.png"; sourceTree = "<group>"; };
+		CB8016152C3FB68700CAA1B8 /* arrow-right-black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrow-right-black.png"; sourceTree = "<group>"; };
+		CB8016162C3FB68700CAA1B8 /* arrow-down-black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrow-down-black.png"; sourceTree = "<group>"; };
+		CB8016172C3FB68700CAA1B8 /* arrow-left-green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrow-left-green.png"; sourceTree = "<group>"; };
+		CB8016182C3FB68700CAA1B8 /* arrow-up-black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrow-up-black.png"; sourceTree = "<group>"; };
+		CB8016192C3FB68700CAA1B8 /* arrow-up-green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrow-up-green.png"; sourceTree = "<group>"; };
 		CBAA8ABD2C3EB00E00A84385 /* TabTouchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabTouchViewController.swift; sourceTree = "<group>"; };
 		CBAA8ABF2C3EB39C00A84385 /* SketchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SketchViewController.swift; sourceTree = "<group>"; };
+		CBAA8AC22C3FB4B900A84385 /* SwifeGestureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwifeGestureViewController.swift; sourceTree = "<group>"; };
 		CBCE365B2C33E919006A00A2 /* NavigationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationVC.swift; sourceTree = "<group>"; };
 		CBCE365D2C33EA8D006A00A2 /* EditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -252,6 +278,7 @@
 		CB3BB0A12C294CFF007C5E79 /* Do-it-Swift */ = {
 			isa = PBXGroup;
 			children = (
+				CBAA8AC12C3FB47B00A84385 /* 18-SwipeGesture */,
 				CBAA8ABC2C3EAFFF00A84385 /* 17-TabTouch */,
 				CB2060552C3BBD73009A36A7 /* 16-CoreGraphics */,
 				CB2060502C3AC07E009A36A7 /* 15-Camer-Library */,
@@ -392,6 +419,25 @@
 			path = "10-TabBar";
 			sourceTree = "<group>";
 		};
+		CB80160D2C3FB67F00CAA1B8 /* image */ = {
+			isa = PBXGroup;
+			children = (
+				CB8016162C3FB68700CAA1B8 /* arrow-down-black.png */,
+				CB8016122C3FB68700CAA1B8 /* arrow-down-green.png */,
+				CB8016102C3FB68700CAA1B8 /* arrow-down-red.png */,
+				CB80160E2C3FB68700CAA1B8 /* arrow-left-black.png */,
+				CB8016172C3FB68700CAA1B8 /* arrow-left-green.png */,
+				CB8016142C3FB68700CAA1B8 /* arrow-left-red.png */,
+				CB8016152C3FB68700CAA1B8 /* arrow-right-black.png */,
+				CB8016132C3FB68700CAA1B8 /* arrow-right-green.png */,
+				CB8016112C3FB68700CAA1B8 /* arrow-right-red.png */,
+				CB8016182C3FB68700CAA1B8 /* arrow-up-black.png */,
+				CB8016192C3FB68700CAA1B8 /* arrow-up-green.png */,
+				CB80160F2C3FB68700CAA1B8 /* arrow-up-red.png */,
+			);
+			path = image;
+			sourceTree = "<group>";
+		};
 		CBAA8ABC2C3EAFFF00A84385 /* 17-TabTouch */ = {
 			isa = PBXGroup;
 			children = (
@@ -399,6 +445,15 @@
 				CBAA8ABF2C3EB39C00A84385 /* SketchViewController.swift */,
 			);
 			path = "17-TabTouch";
+			sourceTree = "<group>";
+		};
+		CBAA8AC12C3FB47B00A84385 /* 18-SwipeGesture */ = {
+			isa = PBXGroup;
+			children = (
+				CB80160D2C3FB67F00CAA1B8 /* image */,
+				CBAA8AC22C3FB4B900A84385 /* SwifeGestureViewController.swift */,
+			);
+			path = "18-SwipeGesture";
 			sourceTree = "<group>";
 		};
 		CBCE365A2C33E908006A00A2 /* 11-Navigation */ = {
@@ -468,6 +523,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB80161B2C3FB68700CAA1B8 /* arrow-up-red.png in Resources */,
 				CB20602F2C352387009A36A7 /* clock.png in Resources */,
 				CB5F65152C2D522C0017E2D4 /* lampOff.png in Resources */,
 				CB2060472C393F94009A36A7 /* FastTyping.mp4 in Resources */,
@@ -475,15 +531,23 @@
 				CB5F64D82C2AA0FA0017E2D4 /* MuhanStart.png in Resources */,
 				CB5F64CD2C2A9A380017E2D4 /* right.png in Resources */,
 				CB2060372C369431009A36A7 /* mp.mp3 in Resources */,
+				CB8016232C3FB68700CAA1B8 /* arrow-left-green.png in Resources */,
+				CB80161F2C3FB68700CAA1B8 /* arrow-right-green.png in Resources */,
+				CB8016222C3FB68700CAA1B8 /* arrow-down-black.png in Resources */,
+				CB80161D2C3FB68700CAA1B8 /* arrow-right-red.png in Resources */,
 				CB20602E2C352387009A36A7 /* cart.png in Resources */,
+				CB80161E2C3FB68700CAA1B8 /* arrow-down-green.png in Resources */,
 				CB3BB0AC2C294D00007C5E79 /* Assets.xcassets in Resources */,
+				CB80161A2C3FB68700CAA1B8 /* arrow-left-black.png in Resources */,
 				CB3BB0AF2C294D00007C5E79 /* Base in Resources */,
 				CB5F64CC2C2A9A380017E2D4 /* left.png in Resources */,
 				CB5F651D2C2E90970017E2D4 /* htmlView.html in Resources */,
 				CB20604F2C3943B4009A36A7 /* Mountaineering.jpg in Resources */,
+				CB8016212C3FB68700CAA1B8 /* arrow-right-black.png in Resources */,
 				CB5F64FB2C2C01A20017E2D4 /* 바이오나노연구원.png in Resources */,
 				CB20603D2C36A170009A36A7 /* stop.png in Resources */,
 				CB5F65012C2C01A20017E2D4 /* 공과대학2.png in Resources */,
+				CB8016242C3FB68700CAA1B8 /* arrow-up-black.png in Resources */,
 				CB5F64D62C2AA0FA0017E2D4 /* couple_01-1.png in Resources */,
 				CB20604E2C3943B4009A36A7 /* Seascape.jpg in Resources */,
 				CB5F64F62C2C01A20017E2D4 /* 대학원_평생교육원.png in Resources */,
@@ -499,11 +563,14 @@
 				CB2060492C393F94009A36A7 /* Fireworks.jpg in Resources */,
 				CB5F64F72C2C01A20017E2D4 /* 글로벌센터.png in Resources */,
 				CB20603C2C36A170009A36A7 /* record.png in Resources */,
+				CB80161C2C3FB68700CAA1B8 /* arrow-down-red.png in Resources */,
 				CB5F65142C2D522C0017E2D4 /* lampOn.png in Resources */,
 				CB20603F2C36A170009A36A7 /* pause.png in Resources */,
 				CB5F650A2C2C01A20017E2D4 /* 반도체대학.png in Resources */,
+				CB8016252C3FB68700CAA1B8 /* arrow-up-green.png in Resources */,
 				CB20602D2C352387009A36A7 /* pen.png in Resources */,
 				CB5F65132C2D522C0017E2D4 /* lampRemove.png in Resources */,
+				CB8016202C3FB68700CAA1B8 /* arrow-left-red.png in Resources */,
 				CB5F65032C2C01A20017E2D4 /* 가천관.png in Resources */,
 				CB5F65232C2E957B0017E2D4 /* htmlMissionView.html in Resources */,
 			);
@@ -532,6 +599,7 @@
 				CB2060272C352229009A36A7 /* AddViewController.swift in Sources */,
 				CBCE365E2C33EA8D006A00A2 /* EditViewController.swift in Sources */,
 				CB5F64DF2C2C01430017E2D4 /* PickerVC.swift in Sources */,
+				CBAA8AC32C3FB4B900A84385 /* SwifeGestureViewController.swift in Sources */,
 				CB2060422C393EA9009A36A7 /* MoviePlayerViewController.swift in Sources */,
 				CB64DFD62C328AEA008FF280 /* TabBarVC.swift in Sources */,
 				CB5F64DC2C2BF7D70017E2D4 /* ViewController04.swift in Sources */,

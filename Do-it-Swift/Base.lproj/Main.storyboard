@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="sEV-XB-eyn">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="j0Z-1q-XrM">
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22685"/>
@@ -1742,6 +1742,68 @@
             </objects>
             <point key="canvasLocation" x="974" y="12176"/>
         </scene>
+        <!--Swife Gesture View Controller-->
+        <scene sceneID="7et-LE-Lqn">
+            <objects>
+                <viewController id="j0Z-1q-XrM" customClass="SwifeGestureViewController" customModule="Do_it_Swift" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="al3-US-nWO">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="vhC-30-1OX">
+                                <rect key="frame" x="16" y="318" width="361" height="216"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="vGY-Vd-xjh">
+                                        <rect key="frame" x="0.0" y="0.0" width="361" height="72"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="72" id="eh5-4d-7dd"/>
+                                        </constraints>
+                                    </imageView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="TaH-SG-ab9">
+                                        <rect key="frame" x="0.0" y="72" width="361" height="72"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Yqk-uA-DtK">
+                                                <rect key="frame" x="0.0" y="0.0" width="180.66666666666666" height="72"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="72" id="Byz-GE-VEV"/>
+                                                </constraints>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="cMY-2r-XSk">
+                                                <rect key="frame" x="180.66666666666663" y="0.0" width="180.33333333333337" height="72"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="72" id="rpk-DA-Kud"/>
+                                                </constraints>
+                                            </imageView>
+                                        </subviews>
+                                    </stackView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="pka-fj-EBJ">
+                                        <rect key="frame" x="0.0" y="144" width="361" height="72"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="72" id="dvN-hu-a24"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="9aW-zT-dwr"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="vhC-30-1OX" firstAttribute="leading" secondItem="9aW-zT-dwr" secondAttribute="leading" constant="16" id="Fp3-Wm-xvC"/>
+                            <constraint firstItem="9aW-zT-dwr" firstAttribute="trailing" secondItem="vhC-30-1OX" secondAttribute="trailing" constant="16" id="Gra-5w-0OY"/>
+                            <constraint firstItem="vhC-30-1OX" firstAttribute="centerY" secondItem="al3-US-nWO" secondAttribute="centerY" id="v3X-SO-1hv"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="imgViewDown" destination="pka-fj-EBJ" id="mBI-oX-0y4"/>
+                        <outlet property="imgViewLeft" destination="Yqk-uA-DtK" id="V8y-SV-RmG"/>
+                        <outlet property="imgViewRight" destination="cMY-2r-XSk" id="hxz-w0-ALr"/>
+                        <outlet property="imgViewUp" destination="vGY-Vd-xjh" id="vUI-1e-m0W"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="l3w-JE-Un1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="995" y="12876"/>
+        </scene>
         <!--Sketch View Controller-->
         <scene sceneID="RwJ-tH-hrB">
             <objects>
@@ -1996,7 +2058,7 @@
         <image name="Seascape.jpg" width="640" height="360"/>
         <image name="file.png" width="48" height="48"/>
         <systemColor name="secondarySystemBackgroundColor">
-            <color red="0.94901960780000005" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
