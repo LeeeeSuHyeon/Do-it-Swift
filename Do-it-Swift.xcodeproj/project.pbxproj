@@ -70,6 +70,13 @@
 		CB64DFD32C3288CD008FF280 /* PageControlMissionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB64DFD22C3288CD008FF280 /* PageControlMissionVC.swift */; };
 		CB64DFD62C328AEA008FF280 /* TabBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB64DFD52C328AEA008FF280 /* TabBarVC.swift */; };
 		CB64DFD82C328E94008FF280 /* file.png in Resources */ = {isa = PBXBuildFile; fileRef = CB64DFD72C328E93008FF280 /* file.png */; };
+		CB64F9292C3FC0EE003450A9 /* SwipeGestureMissionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB64F9282C3FC0EE003450A9 /* SwipeGestureMissionViewController.swift */; };
+		CB64F9302C3FC188003450A9 /* 01.png in Resources */ = {isa = PBXBuildFile; fileRef = CB64F92A2C3FC187003450A9 /* 01.png */; };
+		CB64F9312C3FC188003450A9 /* 04.png in Resources */ = {isa = PBXBuildFile; fileRef = CB64F92B2C3FC187003450A9 /* 04.png */; };
+		CB64F9322C3FC188003450A9 /* 05.png in Resources */ = {isa = PBXBuildFile; fileRef = CB64F92C2C3FC187003450A9 /* 05.png */; };
+		CB64F9332C3FC188003450A9 /* 03.png in Resources */ = {isa = PBXBuildFile; fileRef = CB64F92D2C3FC188003450A9 /* 03.png */; };
+		CB64F9342C3FC188003450A9 /* 02.png in Resources */ = {isa = PBXBuildFile; fileRef = CB64F92E2C3FC188003450A9 /* 02.png */; };
+		CB64F9352C3FC188003450A9 /* 06.png in Resources */ = {isa = PBXBuildFile; fileRef = CB64F92F2C3FC188003450A9 /* 06.png */; };
 		CB80161A2C3FB68700CAA1B8 /* arrow-left-black.png in Resources */ = {isa = PBXBuildFile; fileRef = CB80160E2C3FB68700CAA1B8 /* arrow-left-black.png */; };
 		CB80161B2C3FB68700CAA1B8 /* arrow-up-red.png in Resources */ = {isa = PBXBuildFile; fileRef = CB80160F2C3FB68700CAA1B8 /* arrow-up-red.png */; };
 		CB80161C2C3FB68700CAA1B8 /* arrow-down-red.png in Resources */ = {isa = PBXBuildFile; fileRef = CB8016102C3FB68700CAA1B8 /* arrow-down-red.png */; };
@@ -155,6 +162,13 @@
 		CB64DFD22C3288CD008FF280 /* PageControlMissionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageControlMissionVC.swift; sourceTree = "<group>"; };
 		CB64DFD52C328AEA008FF280 /* TabBarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarVC.swift; sourceTree = "<group>"; };
 		CB64DFD72C328E93008FF280 /* file.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = file.png; sourceTree = "<group>"; };
+		CB64F9282C3FC0EE003450A9 /* SwipeGestureMissionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeGestureMissionViewController.swift; sourceTree = "<group>"; };
+		CB64F92A2C3FC187003450A9 /* 01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 01.png; sourceTree = "<group>"; };
+		CB64F92B2C3FC187003450A9 /* 04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 04.png; sourceTree = "<group>"; };
+		CB64F92C2C3FC187003450A9 /* 05.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 05.png; sourceTree = "<group>"; };
+		CB64F92D2C3FC188003450A9 /* 03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 03.png; sourceTree = "<group>"; };
+		CB64F92E2C3FC188003450A9 /* 02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 02.png; sourceTree = "<group>"; };
+		CB64F92F2C3FC188003450A9 /* 06.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 06.png; sourceTree = "<group>"; };
 		CB80160E2C3FB68700CAA1B8 /* arrow-left-black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrow-left-black.png"; sourceTree = "<group>"; };
 		CB80160F2C3FB68700CAA1B8 /* arrow-up-red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrow-up-red.png"; sourceTree = "<group>"; };
 		CB8016102C3FB68700CAA1B8 /* arrow-down-red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrow-down-red.png"; sourceTree = "<group>"; };
@@ -422,6 +436,12 @@
 		CB80160D2C3FB67F00CAA1B8 /* image */ = {
 			isa = PBXGroup;
 			children = (
+				CB64F92A2C3FC187003450A9 /* 01.png */,
+				CB64F92E2C3FC188003450A9 /* 02.png */,
+				CB64F92D2C3FC188003450A9 /* 03.png */,
+				CB64F92B2C3FC187003450A9 /* 04.png */,
+				CB64F92C2C3FC187003450A9 /* 05.png */,
+				CB64F92F2C3FC188003450A9 /* 06.png */,
 				CB8016162C3FB68700CAA1B8 /* arrow-down-black.png */,
 				CB8016122C3FB68700CAA1B8 /* arrow-down-green.png */,
 				CB8016102C3FB68700CAA1B8 /* arrow-down-red.png */,
@@ -452,6 +472,7 @@
 			children = (
 				CB80160D2C3FB67F00CAA1B8 /* image */,
 				CBAA8AC22C3FB4B900A84385 /* SwifeGestureViewController.swift */,
+				CB64F9282C3FC0EE003450A9 /* SwipeGestureMissionViewController.swift */,
 			);
 			path = "18-SwipeGesture";
 			sourceTree = "<group>";
@@ -536,11 +557,15 @@
 				CB8016222C3FB68700CAA1B8 /* arrow-down-black.png in Resources */,
 				CB80161D2C3FB68700CAA1B8 /* arrow-right-red.png in Resources */,
 				CB20602E2C352387009A36A7 /* cart.png in Resources */,
+				CB64F9312C3FC188003450A9 /* 04.png in Resources */,
 				CB80161E2C3FB68700CAA1B8 /* arrow-down-green.png in Resources */,
 				CB3BB0AC2C294D00007C5E79 /* Assets.xcassets in Resources */,
+				CB64F9332C3FC188003450A9 /* 03.png in Resources */,
 				CB80161A2C3FB68700CAA1B8 /* arrow-left-black.png in Resources */,
 				CB3BB0AF2C294D00007C5E79 /* Base in Resources */,
 				CB5F64CC2C2A9A380017E2D4 /* left.png in Resources */,
+				CB64F9342C3FC188003450A9 /* 02.png in Resources */,
+				CB64F9302C3FC188003450A9 /* 01.png in Resources */,
 				CB5F651D2C2E90970017E2D4 /* htmlView.html in Resources */,
 				CB20604F2C3943B4009A36A7 /* Mountaineering.jpg in Resources */,
 				CB8016212C3FB68700CAA1B8 /* arrow-right-black.png in Resources */,
@@ -566,7 +591,9 @@
 				CB80161C2C3FB68700CAA1B8 /* arrow-down-red.png in Resources */,
 				CB5F65142C2D522C0017E2D4 /* lampOn.png in Resources */,
 				CB20603F2C36A170009A36A7 /* pause.png in Resources */,
+				CB64F9352C3FC188003450A9 /* 06.png in Resources */,
 				CB5F650A2C2C01A20017E2D4 /* 반도체대학.png in Resources */,
+				CB64F9322C3FC188003450A9 /* 05.png in Resources */,
 				CB8016252C3FB68700CAA1B8 /* arrow-up-green.png in Resources */,
 				CB20602D2C352387009A36A7 /* pen.png in Resources */,
 				CB5F65132C2D522C0017E2D4 /* lampRemove.png in Resources */,
@@ -604,6 +631,7 @@
 				CB64DFD62C328AEA008FF280 /* TabBarVC.swift in Sources */,
 				CB5F64DC2C2BF7D70017E2D4 /* ViewController04.swift in Sources */,
 				CB2060522C3AC135009A36A7 /* CameraPhotoLibraryViewController.swift in Sources */,
+				CB64F9292C3FC0EE003450A9 /* SwipeGestureMissionViewController.swift in Sources */,
 				CB2060322C354B73009A36A7 /* AutoLayoutViewController.swift in Sources */,
 				CB5F65262C2FE3720017E2D4 /* MapViewController.swift in Sources */,
 				CB3BB0A72C294CFF007C5E79 /* ViewController01.swift in Sources */,
