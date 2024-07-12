@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="9PU-tW-X4Z">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="s8E-J8-ZQa">
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22685"/>
@@ -1804,6 +1804,67 @@
             </objects>
             <point key="canvasLocation" x="995" y="12876"/>
         </scene>
+        <!--Pinch Gesture View Controller-->
+        <scene sceneID="oNa-k1-KN7">
+            <objects>
+                <viewController id="fPQ-8s-KKq" customClass="PinchGestureViewController" customModule="Do_it_Swift" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="2QJ-hu-JYv">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pinch" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qjV-K8-SWD">
+                                <rect key="frame" x="16" y="59" width="361" height="759"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="1yt-XV-M0a"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="1yt-XV-M0a" firstAttribute="bottom" secondItem="qjV-K8-SWD" secondAttribute="bottom" id="JBn-aJ-SsL"/>
+                            <constraint firstItem="qjV-K8-SWD" firstAttribute="top" secondItem="1yt-XV-M0a" secondAttribute="top" id="TgU-bA-HG2"/>
+                            <constraint firstItem="qjV-K8-SWD" firstAttribute="leading" secondItem="1yt-XV-M0a" secondAttribute="leading" constant="16" id="pLi-Bo-WTv"/>
+                            <constraint firstItem="1yt-XV-M0a" firstAttribute="trailing" secondItem="qjV-K8-SWD" secondAttribute="trailing" constant="16" id="xej-eM-Z3w"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="txtPinch" destination="qjV-K8-SWD" id="8NX-yX-Weo"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="76k-rk-ord" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1002" y="13630"/>
+        </scene>
+        <!--Pinch Image View Controller-->
+        <scene sceneID="8oz-qW-YTO">
+            <objects>
+                <viewController id="s8E-J8-ZQa" customClass="PinchImageViewController" customModule="Do_it_Swift" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="vFQ-0b-gbN">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="06.png" translatesAutoresizingMaskIntoConstraints="NO" id="sr5-of-jdx">
+                                <rect key="frame" x="16" y="59" width="361" height="759"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="wCu-9T-29J"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="sr5-of-jdx" firstAttribute="leading" secondItem="wCu-9T-29J" secondAttribute="leading" constant="16" id="5YB-0E-v0r"/>
+                            <constraint firstItem="wCu-9T-29J" firstAttribute="trailing" secondItem="sr5-of-jdx" secondAttribute="trailing" constant="16" id="e3b-Zu-aAn"/>
+                            <constraint firstItem="wCu-9T-29J" firstAttribute="bottom" secondItem="sr5-of-jdx" secondAttribute="bottom" id="eok-ES-VOf"/>
+                            <constraint firstItem="sr5-of-jdx" firstAttribute="top" secondItem="wCu-9T-29J" secondAttribute="top" id="zws-RQ-51v"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="imgPinch" destination="sr5-of-jdx" id="eJx-SP-jFb"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YO1-9Z-CKR" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1854" y="13630"/>
+        </scene>
         <!--Swipe Gesture Mission View Controller-->
         <scene sceneID="AdJ-2P-u9w">
             <objects>
@@ -2088,6 +2149,7 @@
         <segue reference="kV2-XL-sUJ"/>
     </inferredMetricsTieBreakers>
     <resources>
+        <image name="06.png" width="1686" height="2448"/>
         <image name="FastTyping.jpg" width="640" height="360"/>
         <image name="Fireworks.jpg" width="640" height="360"/>
         <image name="Mountaineering.jpg" width="640" height="360"/>
